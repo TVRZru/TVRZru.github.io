@@ -1,1 +1,91 @@
+body{
+	margin: 0;
+	background: #EEEEEE;
+	font-family: Arial;
+}
 
+header{
+	background: #333333;
+	padding: 15px;
+	color: white;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+main{
+	background: white;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	border-radius: 10px;
+	width: 80%;
+}
+
+nav a{
+	color: white;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+nav a:hover{
+	background-color: #0096ff;
+	color: black;
+}
+
+main h1{
+	text-align: center;
+}
+
+main img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 4px;
+	padding: 10px;
+	max-width: 90%;
+}
+
+main iframe{
+	width: 100%;
+}
+
+.video{
+	width: 1200px;
+	max-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.gallery{
+	display: inline-block;
+}
+
+.gallery_item {
+	margin: 5px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	float: left;
+	width: 240px;
+	background: #333333;
+}
+
+.gallery_item: hover {
+	border: 1px solid #0096ff;
+}
+
+.gallery_item img {
+	width: 100%;
+	margin-top: 5px;
+	height: auto;
+}
+
+.gallery_item .desc {
+	padding: 15px;
+	text-align: center;
+	color: #0096ff;
+}
