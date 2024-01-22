@@ -107,11 +107,13 @@ main iframe{
   background-color: #666;
   padding-left: 25px;
   min-width: 470px;
+  border-radius: 10px;
 }
 #navbar li {
   float: left;
   position: relative;
   height: 100%;
+  border-radius: 10px;
 }
 #navbar li a {
   display: block;
@@ -123,5 +125,5 @@ main iframe{
   border-radius: 10px;
 }
 #navbar ul li { float: none; }
-#navbar li:hover { background-color: #f90; }
+#navbar li:hover { background-color: #f90; border-radius: 10px;}
 #navbar ul li:hover { background-color: #666; border-radius: 10px;}
