@@ -105,7 +105,7 @@ main iframe{
 }
 #navbar {
   height: 30px;
-  background-color: #666;
+  background-color: #e6e6e6;
   padding-left: 25px;
   min-width: 470px;
   border-radius: 10px;
@@ -127,4 +127,4 @@ main iframe{
 }
 #navbar ul li { float: none; border-radius: 10px;}
 #navbar li:hover { background-color: #f90; border-radius: 10px;}
-#navbar ul li:hover { background-color: #666; border-radius: 10px;}
+#navbar ul li:hover { background-color: #e6e6e6; border-radius: 10px;}
