@@ -1,6 +1,6 @@
 <?php
 // Подключение к базе данных
-$dbHost = 'free24.beget.com';
+$dbHost = '185.50.25.38';
 $dbName = 'y96786ep_1';
 $dbUser = 'y96786ep_1';
 $dbPass = '!Rad12712700';
