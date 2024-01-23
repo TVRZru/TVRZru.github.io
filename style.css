@@ -5,7 +5,7 @@ body{
 }
 
 header{
-	background: #333333;
+	background: white;
 	padding: 15px;
 	color: white;
 	text-align: center;
@@ -71,11 +71,11 @@ main iframe{
 	border-radius: 5px;
 	float: left;
 	width: 240px;
-	background: #333333;
+	background: white;
 }
 
 .gallery_item: hover {
-	border: 1px solid #0096ff;
+	border: 1px white;
 }
 
 .gallery_item img {
