@@ -1,9 +1,9 @@
 <?php
 // Подключение к базе данных
-$dbHost = 'localhost';
-$dbName = 'database_name';
-$dbUser = 'username';
-$dbPass = 'password';
+$dbHost = 'free24.beget.com';
+$dbName = 'y96786ep_1';
+$dbUser = 'y96786ep_1';
+$dbPass = '!Rad12712700';
 $conn = new PDO("mysql:host=$dbHost;dbname=$dbName", $dbUser, $dbPass);
 
 // Получение данных из формы
