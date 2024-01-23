@@ -16,6 +16,6 @@ $stmt = $conn->prepare("INSERT INTO users (name, email, password) VALUES (?, ?, 
 $stmt->execute([$name, $email, $password]);
 
 // Перенаправление на страницу после регистрации
-header("Location: registration_success.html");
+header("Location: index.html");
 exit;
 ?>
