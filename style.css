@@ -129,9 +129,11 @@ main iframe{
 #navbar li:hover { background-color: #f90; border-radius: 10px;}
 #navbar ul li:hover { background-color: #e6e6e6; border-radius: 10px;}
 
-.panel {
+.sidebar {
   background: white;
   padding: 10px;
-  margin: 10px;
+  width: 200px;
+  float: left;
+  margin-right: 10px;
   border-radius: 10px;
 }
