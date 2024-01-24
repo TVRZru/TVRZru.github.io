@@ -12,7 +12,7 @@ def register():
     password = request.form['password']
     # Здесь можно добавить код для сохранения данных пользователя
 
-    return render_template('success.html', username=username)
+    return render_template('index.html', username=username)
 
 if __name__ == '__main__':
     app.run(debug=True)
