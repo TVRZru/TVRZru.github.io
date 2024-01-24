@@ -128,3 +128,11 @@ main iframe{
 #navbar ul li { float: none; border-radius: 10px;}
 #navbar li:hover { background-color: #f90; border-radius: 10px;}
 #navbar ul li:hover { background-color: #e6e6e6; border-radius: 10px;}
+
+.panel {
+  background: white;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
